@@ -1,5 +1,4 @@
-package com.task.one;
-
+package com.task.service.one;
 
 /**
  *
@@ -7,22 +6,23 @@ package com.task.one;
 
 public class Number {
 
-    private Integer valueInt;
+    private Integer value;
 
     public Number() {
         super();
     }
 
-    public Number(Integer valueInt) {
-        this.valueInt = valueInt;
+    public Number(int valueInt) {
+        this.value = valueInt;
     }
 
-    public Integer getValueInt() {
-        return valueInt;
+
+    public Integer getValue() {
+        return value;
     }
 
-    public void setValueInt(Integer valueInt) {
-        this.valueInt = valueInt;
+    public void setValue(Integer value) {
+        this.value = value;
     }
 
     @Override

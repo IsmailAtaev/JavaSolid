@@ -36,6 +36,13 @@ public class Circle {
         this.square = square;
     }
 
+    //* setter radius and return square
+    public double getSquare(Double radius) throws NullPointerException,Exception {
+        if (radius == null)
+            throw new NullPointerException();
+        return Math.pow(radius, 2) * Math.PI;
+    }
+
     @Override
     public int hashCode() {
         return super.hashCode();

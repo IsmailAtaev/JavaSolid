@@ -1,14 +1,12 @@
 package com.task.calculate;
 
-import com.task.one.Number;
-import com.task.two.Circle;
-
+import com.task.service.one.Number;
 
 
 /**
  *
  */
-
+/*
 public class calculate {
 
     //* find small value  return small number, throw null pointer exception;
@@ -19,10 +17,10 @@ public class calculate {
         return (a.getValueInt() >= b.getValueInt()) ? a.getValueInt() : b.getValueInt();
     }
 
-    public static  double getCircleAreaOfSmeller
 
 
 
 
 
-}
+
+}*/
